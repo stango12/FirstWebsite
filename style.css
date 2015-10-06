@@ -1,0 +1,66 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+#headder {
+  text-align: center;  
+  font-size: 60px;
+  background-color: #b0f6a0;
+  color: white;
+}
+
+body {
+  background-color: #e6a0f6;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+
+}
+
+p {
+   text-indent: 5em;
+    text-align: justified;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2 {
+   text-decoration: underline;
+}
+
+dt { float: left; padding: 4px; }
+
+.bar {
+margin-bottom: 10px;
+color: #fff;
+padding: 4px;
+
+text-align: center;
+background: -webkit-gradient(linear, left top, left bottom, from(#ff7617), to(#ba550f));
+background-color: #ff7617;
+-webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.25)));
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-animation-name:bar;
+-webkit-animation-duration:0.5s;
+-webkit-animation-iteration-count:1;
+-webkit-animation-timing-function:ease-out;
+}
+
+#data-one { -webkit-animation-name:bar-one; }
+#data-two { -webkit-animation-name:bar-two; }
+#data-three { -webkit-animation-name:bar-three; }
+
+@-webkit-keyframes bar-one {
+0% { width:90%; }
+100% { width:90%; }
+}
+
+@-webkit-keyframes bar-two {
+0% { width:0%; }
+100% { width:60%; }
+}
+
+@-webkit-keyframes bar-three {
+0% { width:0%; }
+100% { width:40%; }
+}
+
